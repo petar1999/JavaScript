@@ -5,9 +5,9 @@ function inflationCalculator() {
 
     inflationRate = parseFloat(inflationRate);
     money = parseFloat(money);
-    years = parseInt(years, 10); // Use parseInt for years as it is usually an integer
+    years = parseInt(years, 10); 
 
-    // Corrected calculation logic
+    
     let worth = money;
 
     for(let i = 0; i < years; i++){
